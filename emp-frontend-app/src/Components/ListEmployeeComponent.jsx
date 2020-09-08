@@ -15,6 +15,7 @@ class ListEmployeeComponent extends Component {
 
   addEmployee(){
     this.props.history.push("/add-employee")
+    console.log("please verify");
   }
 
   componentDidMount() {
