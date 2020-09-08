@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-//const url= "http://localhost:8080/api/v1/employees"
-const url ="https://jsonplaceholder.typicode.com/comments"
+const url= "http://localhost:8080/api/v1/employees"
+//const url ="https://jsonplaceholder.typicode.com/comments"
 class EmployeeService{
 
  getEmployee(){

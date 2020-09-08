@@ -14,7 +14,7 @@ class ListEmployeeComponent extends Component {
   }
 
   addEmployee(){
-    this.state.props.history.push("/add-emeployee")
+    this.props.history.push("/add-employee")
   }
 
   componentDidMount() {
@@ -46,8 +46,9 @@ class ListEmployeeComponent extends Component {
               {
                this.state.employees.map(employee =>
                   <tr key={employee.id}>
-                    <td>{employee.name}</td>
-                    
+                    <td>{employee.firstName}</td>
+                    <td>{employee.lastName}</td>
+                    <td>{employee.email}</td>
                   </tr>
 
                 )
